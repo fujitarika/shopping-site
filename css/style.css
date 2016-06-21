@@ -431,7 +431,6 @@ div.others {
 }
 #background {
     background-color: #FFFFFF;
-    margin: 2rem -2rem;
     padding: 0 2rem 2rem 2rem;
 }
 #background img {
@@ -541,8 +540,29 @@ div.others {
     font-weight: bold;
 }
 
+#c_s_tex {
+    width: 100%;
+    margin-top: 2rem;
+    border-collapse: collapse;
+    border: 1px solid #e2ddd4;
+}
 
+#c_s_tex th {
+    width: 30%;
+    font-weight: normal;
+    text-align: center;
+}
 
+#c_s_tex td {
+    width: 70%;
+    text-align: left;
+}
+
+#c_s_tex th,#c_s_tex td{
+     border: 1px solid #e2ddd4;
+     
+     height: 4rem;
+}
 
 /*****Medi-Queries
 --------------------------------------------------------------------------------*****/
